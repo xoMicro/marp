@@ -1,0 +1,135 @@
+body {
+  margin: 0;
+  line-height: normal;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+.fitness-pose-stretch-exercise-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1920x;
+  height: 1080px;
+  object-fit: cover;
+}
+.rectangle-div2 {
+  position: absolute;
+  top: 331px;
+  left: 509px;
+  background-color: var(--color-gray-100);
+  box-shadow: 19px 19px 4px rgba(0, 0, 0, 0.25);
+  width: 422px;
+  height: 478px;
+  opacity: 0.85;
+}
+.flere-valg-div {
+  position: absolute;
+  top: 678px;
+  left: 648px;
+  display: inline-block;
+}
+.kter-pruke-2550kr,
+.okt-pruke-1450kr,
+.ukers-trening-div {
+  position: absolute;
+  top: 583px;
+  left: 590px;
+  display: inline-block;
+}
+.okt-pruke-1450kr,
+.ukers-trening-div {
+  top: 467px;
+  left: 612px;
+}
+.okt-pruke-1450kr {
+  top: 527px;
+  left: 601px;
+}
+.pris-div {
+  top: 407px;
+  left: 685px;
+}
+.booking-div1,
+.gruppe-timer-div,
+.pris-div {
+  position: absolute;
+  display: inline-block;
+}
+.gruppe-timer-div {
+  top: 378px;
+  left: 643px;
+  -webkit-text-stroke: 1px #fff;
+}
+.booking-div1 {
+  top: 147px;
+  left: 628px;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+}
+.home-div1 {
+  position: absolute;
+  top: 13px;
+  left: 886px;
+}
+.home-div1,
+.om-oss-div1,
+.shop-div1 {
+  font-size: var(--font-size-base);
+  color: var(--color-violet-100);
+  display: inline-block;
+  cursor: pointer;
+}
+.om-oss-div1 {
+  position: absolute;
+  top: 13px;
+  left: 1268px;
+}
+.shop-div1 {
+  left: 1031px;
+}
+.login-div1,
+.logo-4-icon,
+.shop-div1 {
+  position: absolute;
+  top: 13px;
+}
+.login-div1 {
+  left: 1138px;
+  font-size: var(--font-size-base);
+  color: var(--color-violet-100);
+  display: inline-block;
+  cursor: pointer;
+}
+.logo-4-icon {
+  left: 6px;
+  width: 149px;
+  height: 144px;
+  overflow: hidden;
+}
+.rectangle-div3 {
+  position: absolute;
+  top: 729px;
+  left: 584px;
+  border-radius: var(--br-md);
+  background-color: rgba(247, 70, 161, 0.61);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 237px;
+  height: 46px;
+}
+.kjp-div {
+  position: absolute;
+  top: 740px;
+  left: 671px;
+  display: inline-block;
+}
+.desktop-4 {
+  position: relative;
+  background-color: var(--color-white);
+  width: 1920;
+  height: 1080px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}

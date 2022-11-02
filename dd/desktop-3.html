@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <title></title>
+    <meta name="description" content="" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./desktop-3.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="desktop-3">
+      <img
+        class="personlig-trening-1"
+        alt=""
+        src="public/personlig-trening-1@2x.png"
+      />
+      <div class="rectangle-div4"></div>
+      <div class="e-post-eller-telefon">E-post eller telefon</div>
+      <div class="home-div2" id="homeText">home</div>
+      <div class="booking-div2" id="bookingText">booking</div>
+      <div class="om-oss-div2" id="omOssText">om oss</div>
+      <div class="shop-div2" id="shopText">shop</div>
+      <img class="logo-6-icon" alt="" src="public/logo-6.svg" /><img
+        class="rectangle-icon"
+        alt=""
+        src="public/rectangle-10.svg"
+      />
+      <div class="loginsign-up-div">login/sign up</div>
+    </div>
+
+    <script>
+      var homeText = document.getElementById("homeText");
+      if (homeText) {
+        homeText.addEventListener("click", function (e) {
+          window.location.href = "/index.html";
+        });
+      }
+      
+      var bookingText = document.getElementById("bookingText");
+      if (bookingText) {
+        bookingText.addEventListener("click", function (e) {
+          window.location.href = "./desktop-4.html";
+        });
+      }
+      
+      var omOssText = document.getElementById("omOssText");
+      if (omOssText) {
+        omOssText.addEventListener("click", function (e) {
+          window.location.href = "./desktop-5.html";
+        });
+      }
+      
+      var shopText = document.getElementById("shopText");
+      if (shopText) {
+        shopText.addEventListener("click", function (e) {
+          window.location.href = "./desktop-2.html";
+        });
+      }
+      </script>
+  </body>
+</html>

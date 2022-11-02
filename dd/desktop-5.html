@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <title></title>
+    <meta name="description" content="" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./desktop-5.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="desktop-5">
+      <div class="rectangle-div"></div>
+      <div class="rectangle-div1"></div>
+      <div class="om-oss-div">om oss</div>
+      <div class="home-div" id="homeText">home</div>
+      <div class="shop-div" id="shopText">shop</div>
+      <div class="booking-div" id="bookingText">booking</div>
+      <div class="login-div" id="loginText">login</div>
+      <img class="logo-5-icon" alt="" src="public/logo-5.svg" />
+      <div class="tlf-23482134-div">tlf 23482134</div>
+      <div class="marped15innlandefylkeno-div">marped15@innlandefylke.no</div>
+      <div class="epost-div">epost</div>
+    </div>
+
+    <script>
+      var homeText = document.getElementById("homeText");
+      if (homeText) {
+        homeText.addEventListener("click", function (e) {
+          window.location.href = "index.html";
+        });
+      }
+      
+      var shopText = document.getElementById("shopText");
+      if (shopText) {
+        shopText.addEventListener("click", function (e) {
+          window.location.href = "./desktop-2.html";
+        });
+      }
+      
+      var bookingText = document.getElementById("bookingText");
+      if (bookingText) {
+        bookingText.addEventListener("click", function (e) {
+          window.location.href = "./desktop-4.html";
+        });
+      }
+      
+      var loginText = document.getElementById("loginText");
+      if (loginText) {
+        loginText.addEventListener("click", function (e) {
+          window.location.href = "./desktop-3.html";
+        });
+      }
+      </script>
+  </body>
+</html>

@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  line-height: normal;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+.rectangle-div,
+.rectangle-div1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-sm);
+  background-color: var(--color-violet-100);
+  width: 1920px;
+  height: 1080px;
+}
+.rectangle-div1 {
+  top: 11px;
+  border-radius: var(--br-lg);
+  background-color: var(--color-teal);
+  height: 210px;
+}
+.om-oss-div {
+  position: absolute;
+  top: 92px;
+  left: 606px;
+  color: var(--color-gray-100);
+  display: inline-block;
+}
+.booking-div,
+.home-div,
+.login-div,
+.shop-div {
+  position: absolute;
+  top: 20px;
+  left: 689px;
+  display: inline-block;
+  cursor: pointer;
+}
+.booking-div,
+.login-div,
+.shop-div {
+  left: 832px;
+}
+.booking-div,
+.login-div {
+  left: 963px;
+}
+.login-div {
+  left: 1134px;
+}
+.logo-5-icon {
+  position: absolute;
+  top: 11px;
+  left: 0;
+  width: 149px;
+  height: 144px;
+  overflow: hidden;
+}
+.epost-div,
+.marped15innlandefylkeno-div,
+.tlf-23482134-div {
+  position: absolute;
+  top: 443px;
+  left: 497px;
+  color: var(--color-black);
+  display: inline-block;
+}
+.epost-div,
+.marped15innlandefylkeno-div {
+  top: 567px;
+  left: 344px;
+}
+.epost-div {
+  top: 519px;
+  left: 536px;
+}
+.desktop-5 {
+  position: relative;
+  background-color: var(--color-white);
+  width: 1920px;
+  height: 1080px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-violet-100);
+  font-family: var(--font-inter);
+}

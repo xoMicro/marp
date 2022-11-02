@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  line-height: normal;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+.personlig-trening-1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1920px;
+  height: 1080px;
+  object-fit: cover;
+}
+.rectangle-div4 {
+  position: absolute;
+  top: 535px;
+  left: 473px;
+  background-color: rgba(255, 255, 255, 0.67);
+  width: 388px;
+  height: 45px;
+}
+.e-post-eller-telefon {
+  position: absolute;
+  top: 543px;
+  left: 473px;
+  font-size: 24px;
+  color: var(--color-black);
+  display: inline-block;
+}
+.home-div2 {
+  position: absolute;
+  top: 20px;
+  left: 740px;
+}
+.booking-div2,
+.home-div2,
+.om-oss-div2 {
+  display: inline-block;
+  cursor: pointer;
+}
+.booking-div2 {
+  position: absolute;
+  top: 20px;
+  left: 979px;
+}
+.om-oss-div2 {
+  left: 1193px;
+}
+.logo-6-icon,
+.om-oss-div2,
+.shop-div2 {
+  position: absolute;
+  top: 20px;
+}
+.shop-div2 {
+  left: 872px;
+  display: inline-block;
+  cursor: pointer;
+}
+.logo-6-icon {
+  left: 0;
+  width: 149px;
+  height: 144px;
+  overflow: hidden;
+}
+.rectangle-icon {
+  position: absolute;
+  top: 624px;
+  left: 544px;
+  border-radius: var(--br-md);
+  width: 245px;
+  height: 54px;
+}
+.loginsign-up-div {
+  position: absolute;
+  top: 635px;
+  left: 597px;
+  font-size: var(--font-size-sm);
+  color: var(--color-white);
+  display: inline-block;
+}
+.desktop-3 {
+  position: relative;
+  background-color: var(--color-white);
+  width: 1920;
+  height: 1080px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-violet-100);
+  font-family: var(--font-inter);
+}

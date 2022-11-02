@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  line-height: normal;
+   overflow-x:hidden ;
+   overflow-y: hidden;
+}
+.tre-mennesker-lper-om-kapp-av {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1920px;
+  height: 1080px;
+  object-fit: cover;
+}
+.logo-2-icon {
+  position: absolute;
+  top: 9px;
+  left: 11px;
+  width: 149px;
+  height: 144px;
+  overflow: hidden;
+}
+.line-div {
+  position: absolute;
+  top: 44.5px;
+  left: 1290.5px;
+  border-top: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 65px;
+  height: 1px;
+}
+.booking-div4,
+.login-div3,
+.om-oss-div4,
+.shop-div4 {
+  position: absolute;
+  top: 6px;
+  left: 832px;
+  display: inline-block;
+  cursor: pointer;
+}
+.booking-div4,
+.login-div3,
+.om-oss-div4 {
+  left: 951px;
+}
+.login-div3,
+.om-oss-div4 {
+  left: 1129px;
+}
+.om-oss-div4 {
+  left: 1259px;
+}
+.desktop-1 {
+  position: relative;
+  width: 1920px;
+  height: 1080px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-violet-100);
+  font-family: var(--font-inter);
+}

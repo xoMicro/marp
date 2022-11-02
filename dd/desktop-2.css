@@ -1,0 +1,166 @@
+body {
+  margin: 0;
+  line-height: normal;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+.rectangle-div5,
+.rectangle-div6 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-sm);
+  background-color: var(--color-violet-100);
+  width: 1920px;
+  height: 1080px;
+}
+.rectangle-div6 {
+  border-radius: var(--br-lg);
+  background-color: var(--color-teal);
+}
+.bg-runner-1024x682-1-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1920px;
+  height: 1080px;
+  object-fit: cover;
+}
+.om-meg-div,
+.shop-div3 {
+  position: absolute;
+  top: 25px;
+  left: 619px;
+  font-size: 64px;
+  display: inline-block;
+}
+.om-meg-div {
+  top: 393px;
+  left: 586px;
+  font-size: 12px;
+  line-height: 100000px;
+  width: 65px;
+  height: 23px;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  -webkit-text-stroke: 1px #000;
+}
+.logo-3-icon {
+  position: absolute;
+  top: 30px;
+  left: 0;
+  width: 149px;
+  height: 144px;
+  overflow: hidden;
+}
+.rectangle-div7 {
+  position: absolute;
+  top: 512px;
+  left: 479px;
+  background-color: #222;
+  width: 358px;
+  height: 404px;
+  opacity: 0.85;
+}
+.treningsty-med-logo-1-icon {
+  position: absolute;
+  top: 219px;
+  left: 494px;
+  width: 278px;
+  height: 243px;
+  object-fit: cover;
+}
+.f0db45a4ce24081ae03adbf00f60bb-icon,
+.t5a0938-edit-1-600x-1-icon {
+  position: absolute;
+  top: 220px;
+  left: 949px;
+  width: 272px;
+  height: 235px;
+  object-fit: cover;
+}
+.f0db45a4ce24081ae03adbf00f60bb-icon {
+  left: 64px;
+  width: 259px;
+  height: 241px;
+}
+.timer-a-40min {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.timer-a-40min-4900kr-10-timer {
+  position: absolute;
+  top: 566px;
+  left: 506px;
+  color: var(--color-white);
+  display: inline-block;
+  width: 341px;
+  height: 237px;
+}
+.rectangle-div8 {
+  position: absolute;
+  top: 833px;
+  left: 569px;
+  border-radius: 36px;
+  background-color: rgba(247, 70, 161, 0.71);
+  width: 137px;
+  height: 39px;
+}
+.buy-div {
+  position: absolute;
+  top: 845px;
+  left: 619px;
+  display: inline-block;
+  width: 49px;
+  -webkit-text-stroke: 1px #000;
+}
+.blank-line-p {
+  margin: 0;
+}
+.privat-pt-div,
+.text-div {
+  position: absolute;
+  top: 742px;
+  left: 527px;
+  display: inline-block;
+}
+.privat-pt-div {
+  top: 512px;
+  left: 598px;
+  color: var(--color-white);
+  -webkit-text-stroke: 1px #fff;
+}
+.booking-div3,
+.home-div3,
+.login-div2,
+.om-oss-div3 {
+  position: absolute;
+  top: 12px;
+  left: 1280px;
+  font-size: var(--font-size-base);
+  color: var(--color-violet-100);
+  display: inline-block;
+  cursor: pointer;
+}
+.booking-div3,
+.home-div3,
+.login-div2 {
+  left: 1009px;
+}
+.home-div3,
+.login-div2 {
+  left: 869px;
+}
+.login-div2 {
+  left: 1175px;
+}
+.desktop-2 {
+  position: relative;
+  background-color: var(--color-white);
+  width: 1920px;
+  height: 1080px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
